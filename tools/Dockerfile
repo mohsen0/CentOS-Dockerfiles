@@ -76,6 +76,7 @@ RUN yum -y install \
            python-rhsm \
            rootfiles \
            yum-utils \
+           bind-utils \
            && yum clean all
 
 # Set default command
